@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="653.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pengadaan_film.FXML_DisplayFilmController">
+   <children>
+      <Label alignment="CENTER" layoutX="-2.0" layoutY="32.0" prefHeight="58.0" prefWidth="1000.0" text="DATA FILM">
+         <font>
+            <Font name="Arial Bold" size="50.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tbvfilm" layoutX="37.0" layoutY="138.0" prefHeight="309.0" prefWidth="937.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnawal" layoutX="378.0" layoutY="467.0" mnemonicParsing="false" onAction="#btnawalklik" prefHeight="58.0" prefWidth="53.0" text="&lt;&lt;" />
+      <Button fx:id="btnprev" layoutX="439.0" layoutY="467.0" mnemonicParsing="false" onAction="#btnprevklik" prefHeight="58.0" prefWidth="53.0" text="&lt;" />
+      <Button fx:id="btnnext" layoutX="501.0" layoutY="467.0" mnemonicParsing="false" onAction="#btnnextklik" prefHeight="58.0" prefWidth="53.0" text="&gt;" />
+      <Button fx:id="btnakhir" layoutX="565.0" layoutY="467.0" mnemonicParsing="false" onAction="#btnakhirklik" prefHeight="58.0" prefWidth="53.0" text="&gt;&gt;" />
+      <Button fx:id="btnubah" layoutX="501.0" layoutY="535.0" mnemonicParsing="false" onAction="#btnubahklik" prefHeight="58.0" prefWidth="118.0" text="Ubah" />
+      <Button fx:id="btnhapus" layoutX="439.0" layoutY="535.0" mnemonicParsing="false" onAction="#btnhapusklik" prefHeight="58.0" prefWidth="53.0" text="-" />
+      <Button fx:id="btntambah" layoutX="378.0" layoutY="535.0" mnemonicParsing="false" onAction="#btntambahklik" prefHeight="58.0" prefWidth="53.0" text="+" />
+   </children>
+</AnchorPane>

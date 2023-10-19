@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="669.0" prefWidth="882.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pengadaan_film.FXML_DisplayMemberController">
+   <children>
+      <Label alignment="CENTER" layoutY="32.0" prefHeight="58.0" prefWidth="882.0" text="DISPLAY MEMBER">
+         <font>
+            <Font name="Arial Bold" size="50.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tbvmember" layoutX="60.0" layoutY="135.0" prefHeight="339.0" prefWidth="762.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnawal" layoutX="290.0" layoutY="489.0" mnemonicParsing="false" onAction="#btnawalklik" prefHeight="58.0" prefWidth="65.0" text="&lt;&lt;" />
+      <Button fx:id="btnprev" layoutX="368.0" layoutY="489.0" mnemonicParsing="false" onAction="#btnprevklik" prefHeight="58.0" prefWidth="65.0" text="&lt;" />
+      <Button fx:id="btnnext" layoutX="450.0" layoutY="489.0" mnemonicParsing="false" onAction="#btnnextklik" prefHeight="58.0" prefWidth="65.0" text="&gt;" />
+      <Button fx:id="btnakhir" layoutX="527.0" layoutY="489.0" mnemonicParsing="false" onAction="#btnakhirklik" prefHeight="58.0" prefWidth="65.0" text="&gt;&gt;" />
+      <Button fx:id="btnubah" layoutX="450.0" layoutY="557.0" mnemonicParsing="false" onAction="#btnubahklik" prefHeight="58.0" prefWidth="143.0" text="UBAH" />
+      <Button fx:id="btnhapus" layoutX="368.0" layoutY="557.0" mnemonicParsing="false" onAction="#btnhapusklik" prefHeight="58.0" prefWidth="65.0" text="-" />
+      <Button fx:id="btntambah" layoutX="290.0" layoutY="557.0" mnemonicParsing="false" onAction="#btntambahklik" prefHeight="58.0" prefWidth="65.0" text="+" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="683.0" prefWidth="489.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pengadaan_film.FXMLDocumentController">
+    <children>
+        <MenuBar prefHeight="29.0" prefWidth="489.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Display Data">
+                    <items>
+                        <MenuItem fx:id="displayfilm" mnemonicParsing="false" onAction="#displayfilmklik" text="Film" />
+                        <MenuItem fx:id="displaymember" mnemonicParsing="false" onAction="#displaymemberklik" text="Member" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Input Data">
+                    <items>
+                        <MenuItem fx:id="inputfilm" mnemonicParsing="false" onAction="#inputfilmklik" text="Film" />
+                        <MenuItem fx:id="inputmember" mnemonicParsing="false" onAction="#inputmemberklik" text="Member" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <TextField alignment="CENTER" blendMode="DARKEN" layoutY="31.0" prefHeight="653.0" prefWidth="489.0" text="WELCOME">
+            <font>
+                <Font name="Arial Black" size="45.0" />
+            </font>
+        </TextField>
+    </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="478.0" prefWidth="637.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pengadaan_film.FXML_InputMemberController">
+   <children>
+      <Label alignment="CENTER" layoutY="39.0" prefHeight="58.0" prefWidth="637.0" text="INPUT DATA MEMBER">
+         <font>
+            <Font name="Arial Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="131.0" prefHeight="46.0" prefWidth="140.0" text="ID MEMBER" />
+      <Label layoutX="60.0" layoutY="177.0" prefHeight="46.0" prefWidth="140.0" text="NAMA LENGKAP" />
+      <Label layoutX="60.0" layoutY="269.0" prefHeight="46.0" prefWidth="140.0" text="AKUN INSTAGRAM" />
+      <Label layoutX="60.0" layoutY="223.0" prefHeight="46.0" prefWidth="140.0" text="NOMOR WHATSAPP" />
+      <TextField fx:id="txtid" layoutX="257.0" layoutY="136.0" prefHeight="36.0" prefWidth="299.0" />
+      <TextField fx:id="txtnama" layoutX="257.0" layoutY="182.0" prefHeight="36.0" prefWidth="299.0" />
+      <TextField fx:id="txtig" layoutX="257.0" layoutY="274.0" prefHeight="36.0" prefWidth="299.0" />
+      <TextField fx:id="txtwa" layoutX="257.0" layoutY="228.0" prefHeight="36.0" prefWidth="299.0" />
+      <TextField fx:id="txttotal" layoutX="257.0" layoutY="320.0" prefHeight="36.0" prefWidth="299.0" />
+      <Label layoutX="60.0" layoutY="315.0" prefHeight="46.0" prefWidth="140.0" text="TOTAL " />
+      <Button fx:id="btnsave" layoutX="257.0" layoutY="381.0" mnemonicParsing="false" onAction="#btnsaveklik" prefHeight="46.0" prefWidth="118.0" text="SAVE" />
+      <Button fx:id="btncancel" layoutX="438.0" layoutY="381.0" mnemonicParsing="false" onAction="#btncancelklik" prefHeight="46.0" prefWidth="118.0" text="CANCEL" />
+   </children>
+</AnchorPane>
